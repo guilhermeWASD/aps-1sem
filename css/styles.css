@@ -1,0 +1,95 @@
+
+#topbar{
+    background-color: #31BF3F;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fundo-logo {
+    background-color: #FFFFFF;
+    width: 110px;
+    height: 100px;
+    border-radius: 5%;
+    margin-left: 1%;
+}
+
+#logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2%;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+#painel{
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
+    border: 1px solid black; /* REMOVER */
+    height: 50vh;
+}
+
+#lista{
+    font-size: 30px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid black; /* REMOVER */
+    background-color: #f3cdcd;
+    margin-right: 2%;
+    padding-top: 3%;
+    height: 100%;
+    line-height: 2.5;
+}
+
+#painel-info{
+    width: 80%;
+    height: 100%;
+    border: 1px solid black; /* REMOVER */
+    padding-top: 1%;
+    padding-left: 2%;
+    background-color: #f3cdcd;
+}
+
+#painel-info h2{
+    font-size: 30px;
+}
+
+.botao{
+    cursor: pointer;
+    background-color: #33ff00;
+
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #000000;
+
+    display: inline-block;
+
+    font-size: 24px;
+    line-height: 23px;
+    outline: none;
+    padding: 3px;
+    
+    
+
+}
