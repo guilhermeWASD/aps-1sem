@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/reset.css">
 
-    <script src="code.js"></script>
-
 </head>
 <body>
     <div id="topbar">
@@ -24,48 +22,86 @@
 
     
     <div id="painel">
+
         <div id="lista">
-            <ul>
+            <ul class="botoes">
                 <li>
-                    <button class="botao" id="soja">SOJA</button>
+                    <button class="botao" id="btnSoja">SOJA</button>
                 </li>
                 
                 <li>
-                    <button class="botao" id="milho">MILHO</button>
+                    <button class="botao" id="btnMilho">MILHO</button>
                 </li>
                 
                 <li>
-                    <button class="botao" id="cana">CANA-DE-AÇUCAR</button>
+                    <button class="botao selecionado" id="btnCana">CANA-DE-AÇUCAR</button>
                 </li>
                 
                 <li>
-                    <button class="botao" id="feijao">FEIJÃO</button>
+                    <button class="botao" id="btnFeijao">FEIJÃO</button>
                 </li>
                 
                 <li>
-                    <button class="botao" id="arroz">ARROZ</button>
+                    <button class="botao" id="btnArroz">ARROZ</button>
                 </li>
             </ul>
         </div>
 
         <div id="painel-info">
-            <h2>CULTURA A</h2>    
+            <div class="cultura ativa" id="soja">
+                <h2>Soja</h2>
+                <h3>INFORMAÇÕES SOBRE SOJA</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
 
-            <h3>INFO 1</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <img src="media/" alt="">
+            </div>
 
-            <h3>INFO 2</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            <div class="cultura" id="milho">
+                <h2>Milho</h2>
+                <h3>INFORMAÇÕES SOBRE MILHO</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            </div>
 
-            <h3>INFO 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
-            
-            <h3>INFO 4</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
-            
-            <h3>INFO 5</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            <div class="cultura" id="cana">
+                <h2>Cana-de-Açucar</h2>
+                <h3>INFORMAÇÕES SOBRE CANA-DE-AÇUCAR</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            </div>
+
+            <div class="cultura" id="feijao">
+                <h2>Feijão</h2>
+                <h3>INFORMAÇÕES SOBRE FEIJÃO</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            </div>
+
+            <div class="cultura" id=arroz">
+                <h2>INFORMAÇÕES SOBRE ARROZ</h2>
+                <h3>INFO 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+                <h3>INFO 3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi excepturi atque facilis laboriosam earum.</p>
+            </div>
+
         </div>
     </div>
+    <script src="code.js"></script>
 </body>
 </html>

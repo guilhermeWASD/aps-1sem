@@ -1,0 +1,12 @@
+--2024-03-23 15:33:12--  https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fscoopsky.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fis-soy-healthy-for-you-header-0120-1579283241-780x470.png
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving external-content.duckduckgo.com (external-content.duckduckgo.com)... 191.235.125.81
+Connecting to external-content.duckduckgo.com (external-content.duckduckgo.com)|191.235.125.81|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [image/png]
+Saving to: ‘index.html?u=https:%2F%2Fscoopsky.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fis-soy-healthy-for-you-header-0120-1579283241-780x470.png’
+
+                 index.html?u=http     [<=>                                                             ]       0  --.-KB/s               index.html?u=https:%2F%2Fscoopsky.     [ <=>                                                            ] 551,04K  --.-KB/s    in 0,1s    
+
+2024-03-23 15:33:15 (4,70 MB/s) - ‘index.html?u=https:%2F%2Fscoopsky.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fis-soy-healthy-for-you-header-0120-1579283241-780x470.png’ saved [564265]
+
